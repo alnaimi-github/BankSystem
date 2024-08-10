@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<!-- Updated Target Framework -->
+		<LangVersion>latest</LangVersion>
+		<!-- Optional: Use the latest language version -->
+	</PropertyGroup>
+
+</Project>

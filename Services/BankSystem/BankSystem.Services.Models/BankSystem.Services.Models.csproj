@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<!-- Updated Target Framework -->
+		<LangVersion>latest</LangVersion>
+		<!-- Optional: Use the latest language version -->
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\..\Common\BankSystem.Common\BankSystem.Common.csproj" />
+		<ProjectReference Include="..\..\..\Data\BankSystem\BankSystem.Models\BankSystem.Models.csproj" />
+	</ItemGroup>
+
+</Project>

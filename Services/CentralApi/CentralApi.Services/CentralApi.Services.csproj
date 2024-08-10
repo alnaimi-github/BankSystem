@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<!-- Updated Target Framework -->
+		
+		<!-- Optional: Use the latest language version -->
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\..\Data\CentralApi\CentralApi.Data\CentralApi.Data.csproj" />
+		<ProjectReference Include="..\CentralApi.Services.Models\CentralApi.Services.Models.csproj" />
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<!-- Updated Target Framework -->
+		<LangVersion>latest</LangVersion>
+		<!-- Optional: Use the latest language version -->
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AutoMapper" Version="12.0.0" />
+		<!-- Updated Version -->
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\..\Data\BankSystem\BankSystem.Data\BankSystem.Data.csproj" />
+		<ProjectReference Include="..\BankSystem.Services.Models\BankSystem.Services.Models.csproj" />
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<UserSecretsId>aspnet-DemoShop.Web-BB3CD731-A190-4BBC-999C-8696320258E3</UserSecretsId>
+		<AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+		<LangVersion>latest</LangVersion>
+		<!-- Use the latest C# language version -->
+	</PropertyGroup>
+
+	<ItemGroup>
+		<!-- Updated Package References -->
+		<PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.6" />
+		<PackageReference Include="Microsoft.AspNetCore.EntityFrameworkCore" Version="8.0.6" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+		<!-- Adjust versions to match the latest available packages compatible with .NET 8.0 -->
+	</ItemGroup>
+
+	<ItemGroup>
+		<!-- Update Project References if necessary -->
+		<ProjectReference Include="..\DemoShop.Data\DemoShop.Data.csproj" />
+		<ProjectReference Include="..\DemoShop.Services\DemoShop.Services.csproj" />
+	</ItemGroup>
+
+</Project>

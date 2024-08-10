@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<!-- Updated Target Framework -->
+		<LangVersion>latest</LangVersion>
+		<!-- Optional: Use the latest language version -->
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AutoMapper" Version="12.0.0" />
+		<!-- Updated version if available -->
+		<PackageReference Include="FluentAssertions" Version="6.0.0" />
+		<!-- Updated version if available -->
+		<PackageReference Include="LiquidTestReports.Markdown" Version="2.0.0" />
+		<!-- Updated version if available -->
+		<PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.0" />
+		<!-- Updated version -->
+		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.1.0" />
+		<!-- Updated version -->
+		<PackageReference Include="Moq" Version="4.20.0" />
+		<!-- Updated version -->
+		<PackageReference Include="xunit" Version="2.5.0" />
+		<!-- Updated version -->
+		<PackageReference Include="xunit.runner.visualstudio" Version="2.5.0" />
+		<!-- Updated version -->
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\Common\BankSystem.Common\BankSystem.Common.csproj" />
+		<ProjectReference Include="..\..\Data\BankSystem\BankSystem.Data\BankSystem.Data.csproj" />
+		<ProjectReference Include="..\..\Services\BankSystem\BankSystem.Services.Models\BankSystem.Services.Models.csproj" />
+		<ProjectReference Include="..\..\Services\BankSystem\BankSystem.Services\BankSystem.Services.csproj" />
+	</ItemGroup>
+
+</Project>

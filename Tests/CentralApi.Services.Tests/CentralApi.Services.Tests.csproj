@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<!-- Updated Target Framework -->
+		<LangVersion>latest</LangVersion>
+		<!-- Optional: Use the latest language version -->
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AutoMapper" Version="12.0.0" />
+		<!-- Updated version -->
+		<PackageReference Include="FluentAssertions" Version="8.0.0" />
+		<!-- Updated version -->
+		<PackageReference Include="LiquidTestReports.Markdown" Version="8.0.0" />
+		<!-- Updated version -->
+		<PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.6" />
+		<!-- Updated version -->
+	
+		<!-- Updated version -->
+		<PackageReference Include="xunit" Version="2.5.0" />
+		<!-- Updated version -->
+		<PackageReference Include="xunit.runner.visualstudio" Version="2.5.0" />
+		<!-- Updated version -->
+		<PackageReference Include="System.ComponentModel.Annotations" Version="8.0.0" />
+		<!-- Use available version -->
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\Common\BankSystem.Common\BankSystem.Common.csproj" />
+		<ProjectReference Include="..\..\Data\CentralApi\CentralApi.Data\CentralApi.Data.csproj" />
+		<ProjectReference Include="..\..\Data\CentralApi\CentralApi.Models\CentralApi.Models.csproj" />
+		<ProjectReference Include="..\..\Services\CentralApi\CentralApi.Services.Models\CentralApi.Services.Models.csproj" />
+		<ProjectReference Include="..\..\Services\CentralApi\CentralApi.Services\CentralApi.Services.csproj" />
+	</ItemGroup>
+
+</Project>
